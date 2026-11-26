@@ -87,7 +87,23 @@
   </div>
   <audio id="player" preload="metadata"></audio>
   <script>
-    const titles = ["Te amo Nahomi", "Te amo Nahomi", "Te amo Nahomi", "Te amo Nahomi", "Te amo Nahomi", "Te amo Nahomi", "Te amo Nahomi", "Te amo Nahomi", "Te amo Nahomi", "Te amo Nahomi", "Te amo Nahomi", "Te amo Nahomi", "Te amo Nahomi", "Te amo Nahomi", "Te amo Nahomi"];
+    const titles = [
+      "BTS - SWIM",
+      "BTS - 2.0",
+      "BTS - Dynamite",
+      "BTS feat. Halsey - Boy With Luv",
+      "BTS - DNA",
+      "BLACKPINK - Kill This Love",
+      "BLACKPINK - DDU-DU DDU-DU",
+      "BLACKPINK - Pink Venom",
+      "BLACKPINK - AS IF IT'S YOUR LAST",
+      "BLACKPINK - Lovesick Girls",
+      "CUCO - Lo Que Siento",
+      "CUCO - Lover Is a Day",
+      "TWICE - The Feels",
+      "TWICE - THIS IS FOR",
+      "Canserbero - Stupid Love Story"
+    ];
     const tracks = titles.map((title, i) => ({
       title,
       src: "./audio/" + String(i + 1).padStart(2, "0") + ".mp3"
